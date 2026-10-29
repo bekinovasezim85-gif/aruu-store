@@ -1,0 +1,30 @@
+          <!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ARUU store</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;700&family=Cormorant+Garamond:ital,wght@0,600;1,600&family=Great+Vibes&family=Manrope:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="w top"><button class="logo" data-go="home" aria-label="На главную"><b>ARUU</b><i>store</i></button><div class="st" id="st"><i class="dot"></i><span></span></div></div></header>
+<main class="w">
+<section class="v" id="v-home"></section>
+<section class="v" id="v-catalog"><h2>Каталог</h2><div class="chips" id="chips"></div><div class="bar"><select id="sort" aria-label="Сортировка"><option value="def">Все подряд</option><option value="asc">Сначала дешёвые</option><option value="desc">Сначала дорогие</option></select></div><div class="g" id="cg"></div></section>
+<section class="v" id="v-search"><h2>Поиск</h2><div class="bar"><input id="q" type="search" placeholder="Бренд или название, например Garnier" aria-label="Поиск"></div><div class="g" id="sg"></div></section>
+<section class="v" id="v-fav"><h2>Избранное</h2><div class="g" id="fg"></div></section>
+<section class="v" id="v-cart"></section>
+<section class="v" id="v-prof"></section>
+</main>
+<nav class="nav" aria-label="Разделы">
+<button data-go="home"><span>🏠</span>Главная</button><button data-go="catalog"><span>🛍</span>Каталог</button><button data-go="search"><span>🔍</span>Поиск</button><button data-go="fav"><span>♡</span>Избранное<i class="bd" id="bf"></i></button><button data-go="cart"><span>🧺</span>Корзина<i class="bd" id="bc"></i></button><button data-go="prof"><span>👤</span>Профиль</button>
+</nav>
+<div class="toast" id="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>             
+
+
+
+
